@@ -1,6 +1,10 @@
+import { Footer } from "../components/Footer"
+import { Header } from "../components/Header"
 
 export const Capitulos = () => {
   return (
-    <>Capitulos</>
+    <>
+      <h1>Capítulos</h1>
+    </>
   )
 }
