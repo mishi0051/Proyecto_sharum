@@ -1,16 +1,14 @@
 
 import './App.css'
 import { Capitulos } from './pages/Capitulos'
-import { Header } from './components/Header'
-import { Footer } from './components/Footer'
+import Personajes from './pages/Personajes'
 
 function App() {
 
   return (
     <>
-      <Header />
       <Capitulos />
-      <Footer />
+      <Personajes />
     </>
   )
 }
